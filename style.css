@@ -6,6 +6,7 @@ Main background - #D4A76A*/
 
 header{
     background-color: #FFDBAA;
+    color: #553100
 }
 
 body{
@@ -15,4 +16,28 @@ body{
 button{
     background-color: #805215;
     color: white;
+    height: 60px;
+    font-size: medium;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+section{
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px;
+    font-size: large;
 }

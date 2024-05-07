@@ -8,32 +8,34 @@
   <body>
     <header style="display: grid; grid-template-columns: 50% 50%;">
       <h1>PUERTO RICO AIRLINES</h1>
-      <nav style="display: flex; justify-content: space-around;">
+      <nav style="display: flex; justify-content: space-around; align-items: center;">
         <button name="home" id="home" > HOME</button>
         <button name="flights" id="flights" > FLIGHTS</button>
         <button name="support" id="support" > SUPPORT</button>
         <button name="login" id="login" > LOGIN</button>
       </nav>
     </header>
-    <section>
+    <div style="display: flex; flex-direction: row; justify-content: space-around;">
+    <section style="display: flex; flex-direction: column; width: 600px; margin: 40px;">
       <h2>Flights</h2>
       <p>Come check out our sweet flights! Direct flights available daily!</p>
-      <button name="lets-go" id="lets-go">Lets go</button>
+      <button style="justify-content: center; align-items: end; width: full; margin: 10px;" name="lets-go" id="lets-go">Lets go</button>
     </section>
-    <section>
+    <section style="display: flex; flex-direction: column; width: 600px; margin: 40px;">
       <h2>Group Trips</h2>
       <p>We offer great group rates! For families with 4 members to huge gatherings with 50+!</p>
-      <button name="group-rates" id="group-rates">Group Rates</button>
+      <button style="justify-content: center; align-items: end; width: full; margin: 10px;" name="group-rates" id="group-rates">Group Rates</button>
     </section>
-    <section>
+    <section style="display: flex; flex-direction: column; width: 600px; margin: 40px;">
       <h2>Discount Flights</h2>
       <p>Discount flights available for individuals! Single chair filler tickets for low rates!</p>
-      <button name="jump-in" id="jump-in">Jump In</button>
+      <button style="justify-content: center; align-items: end; width: full; margin: 10px;" name="jump-in" id="jump-in">Jump In</button>
     </section>
-    <section>
-      <h2>About Us</h2>
-      <p>Lorem Ipsum</p>
-      <button name="learn-more" id="learn-more">Learn More</button>
+  </div>
+    <section style="display: grid; grid-template-columns: 100%; margin: 40px;">
+      <h2 style="display: flex; justify-content: center;">About Us</h2>
+      <p style="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam at lectus urna duis. Arcu non sodales neque sodales ut etiam.</p>
+      <button style="width: full; margin: 10px;" name="learn-more" id="learn-more">Learn More</button>
     </section>
   </body>
 </html>
