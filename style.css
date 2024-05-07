@@ -4,10 +4,15 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-.header{
-    background-color: "#FFDBAA";
+header{
+    background-color: #FFDBAA;
 }
 
-.body{
-    background-color: "#553100";
+body{
+    background-color: #D4A76A;
+}
+
+button{
+    background-color: #805215;
+    color: white;
 }
